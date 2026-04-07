@@ -46,12 +46,21 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Main" component={TabsNavigator}
-          options={{ headerShown: false }} />
-        <Stack.Screen name="Cadastro" component={CadastroScreen}
-          options={{ title: 'Funcionário' }} />
-        <Stack.Screen name="Relatórios" component={RelatoriosScreen}
-          options={{ title: 'Relatórios' }} />
+        <Stack.Screen
+          name="Main"
+          component={TabsNavigator}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Cadastro"
+          component={CadastroScreen}
+          options={{ title: 'Funcionário' }}
+        />
+        <Stack.Screen
+          name="Relatórios"
+          component={RelatoriosScreen}
+          options={{ title: 'Relatórios' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

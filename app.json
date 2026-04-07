@@ -6,6 +6,16 @@
     "android": {
       "package": "larissagiulian123.fazendaapp"
     },
-    "plugins": [["expo-sqlite"]]
+    "plugins": [
+      [
+        "expo-sqlite"
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3b5a69f9-f85a-4cb4-96c5-a9a626ed4c36"
+      }
+    },
+    "owner": "larissa2008"
   }
 }
