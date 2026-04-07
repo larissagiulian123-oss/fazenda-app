@@ -9,7 +9,8 @@
     "plugins": [
       [
         "expo-sqlite"
-      ]
+      ],
+      "expo-sharing"
     ],
     "extra": {
       "eas": {
